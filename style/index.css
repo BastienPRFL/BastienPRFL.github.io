@@ -1,0 +1,62 @@
+body, html{
+    background-color: #525659 !important;
+    color: white !important;
+}
+
+#competences h1{
+    margin-bottom: 50px !important;
+}
+
+h1{
+    margin-bottom: 20px !important;
+}
+
+section{
+    margin: 100px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+div.infos{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+div.infos img{
+    object-fit: contain;
+    max-height: 40vh;
+    border-radius: 20%;
+}
+
+div.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 50px;
+    margin: 0 200px;
+}
+
+div.competence{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+div.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.grid img{
+    width: 40%;
+    max-height: fit-content;
+}
+
+div.grid .title-comp{
+    text-align: center;
+}
