@@ -1,0 +1,11 @@
+.navbar-brand:hover{
+    color: #9bd2fa !important;
+}
+
+.nav-link:hover{
+    color: #9bd2fa !important;
+}
+
+.nav-link.active{
+    color: #9bd2fa !important;
+}
