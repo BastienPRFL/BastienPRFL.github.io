@@ -36,3 +36,8 @@ div.card{
 div.card-header{
     color:#9bd2fa;
 }
+
+.card-footer a{
+    text-decoration: none;
+    color: #9bd2fa;
+}
