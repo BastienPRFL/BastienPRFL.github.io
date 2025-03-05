@@ -41,3 +41,8 @@ div.card-header{
     text-decoration: none;
     color: #9bd2fa;
 }
+
+.comp-title a{
+    text-decoration: none;
+    color: white;
+}
