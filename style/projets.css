@@ -6,8 +6,9 @@ body, html{
 
 h1{
     margin-bottom: 20px !important;
-    color: #1a3b70;
+    text-align: center !important;
 }
+
 
 h3{
     text-align: center;
