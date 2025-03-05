@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-
+    
+    <link rel="stylesheet" href="style/navbar.css">
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.3.3/flatly/bootstrap.min.css" integrity="sha512-qoT4KwnRpAQ9uczPsw7GunsNmhRnYwSlE2KRCUPRQHSkDuLulCtDXuC2P/P6oqr3M5hoGagUG9pgHDPkD2zCDA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -10,7 +11,35 @@
     <title>Accueil</title>
 </head>
 <body>
-    <?php include 'navbar.html'; ?>
+
+
+    <nav class="navbar navbar-expand-lg" style="background-color: #1a3b70;" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">Bastien Perruffel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href='/cv.html'>CV
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/projets.html">Mes projets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/competences.html">Mes compétences</a>
+              </li>
+              
+            </ul>
+            <p style="margin: 0; color: white;">Contact : <a href="mailto:bastienperruffel@gmail.com" style="text-decoration: none; color: white;">bastienperruffel@gmail.com</a></p>
+          </div>
+        </div>
+    </nav>
+
+
     
     <section id="presentation">
         <div><h1><b>Présentation</b></h1></div>

@@ -1,0 +1,70 @@
+body, html{
+    background-color: #525659 !important;
+    color: white !important;
+}
+
+
+h1{
+    margin-bottom: 20px !important;
+    color: #1a3b70;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 20px !important;
+}
+
+section{
+    margin: 100px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.infos{
+    display: flex;
+}
+
+section#stage img{
+    max-width: 1000px;
+    width: 50%;
+    height: 50%;
+}
+
+section#stage .images{
+    display: flex;
+    align-items: center;
+}
+
+ div.desc{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+div.taches{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+section#colis img{
+    max-width: 1000px;
+
+}
+
+.competences{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.badge{
+    background-color: #1a3b70;
+    font-size: 18px !important;
+}
